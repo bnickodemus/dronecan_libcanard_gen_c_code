@@ -1,0 +1,136 @@
+Full Data Type Name                                  | DDTID |   Type Signature   |  Max Bit Len  
+--------------------------------------------------------------------------------------------------
+ardupilot.equipment.power.BatteryCells                 20012   0x5c8b1abd15890ea4     405
+ardupilot.equipment.power.BatteryContinuous            20010   0x756b561340d5e4ae     200
+ardupilot.equipment.power.BatteryInfoAux               20004   0x7d7f49fc75484882    4217
+ardupilot.equipment.power.BatteryPeriodic              20011   0x0f012494e97358d2    1000
+ardupilot.equipment.proximity_sensor.Proximity         21910   0x99dd3985fb3222ce      64
+ardupilot.equipment.trafficmonitor.TrafficReport       20790   0x68e45db60b6981f8     375
+ardupilot.gnss.Heading                                 20002   0x315cae39eced3412      34
+ardupilot.gnss.MovingBaselineData                      20005   0x09f323748c32133a    2409
+ardupilot.gnss.RelPosHeading                           20006   0xa1727af295f94478     153
+ardupilot.gnss.Status                                  20003   0xba3cb4abbb007f69      56
+ardupilot.indication.Button                            20001   0x0645a46efba7466e      16
+ardupilot.indication.NotifyState                       20007   0x631f2a9c1651fdec    2120
+ardupilot.indication.SafetyState                       20000   0xe965701a95a1a6a1       8
+com.hex.equipment.flow.Measurement                     20200   0x6a908866bcb49c18     168
+com.himark.servo.ServoCmd                               2018   0x5d09e48551ce9194     175
+com.himark.servo.ServoInfo                              2019   0xca8f4b8f97d23b57      96
+com.hobbywing.esc.GetEscID                             20013   0x0000000000004e2d      26
+com.hobbywing.esc.GetMaintenanceInformation              241   0xb81dbd4ec9a5977d       8 / 56   
+com.hobbywing.esc.GetMajorConfig                         242   0x1506774da3930bfd       8 / 56   
+com.hobbywing.esc.RawCommand                           20100   0xbdf086c79f6640ad     116
+com.hobbywing.esc.SelfTest                               216   0xc48d4de61c5295df       0 / 8    
+com.hobbywing.esc.SetAngle                               217   0x81d9b10761c28e0a      24 / 42   
+com.hobbywing.esc.SetBaud                                211   0xada98653b52de435       8 / 0    
+com.hobbywing.esc.SetDirection                           213   0x9d793111d262ba68       8 / 8    
+com.hobbywing.esc.SetID                                  210   0xc323cb5e9ec2b6f7      16 / 16   
+com.hobbywing.esc.SetLED                                 212   0xb493bd48c0853ee5      24 / 24   
+com.hobbywing.esc.SetReportingFrequency                  214   0x1fd0404420983deb      32 / 32   
+com.hobbywing.esc.SetThrottleSource                      215   0x0c248faaefe5e29a       8 / 8    
+com.hobbywing.esc.StatusMsg1                           20050   0x0813b3e2c4ad670e      48
+com.hobbywing.esc.StatusMsg2                           20051   0x1675da01c3b91297      40
+com.hobbywing.esc.StatusMsg3                           20052   0x24919cd1eb34ece9      24
+com.volz.servo.ActuatorStatus                          20020   0x29bf0d53b4060263      56
+com.xacti.CopterAttStatus                              20407   0x6c1f30f1893763b1      98
+com.xacti.GimbalAttitudeStatus                         20402   0xeb428b6c25832692      96
+com.xacti.GimbalControlData                            20554   0x3b058fa5b150c5be      48
+com.xacti.GnssStatus                                   20305   0x3413ac5d3e1dcbe3     264
+com.xacti.GnssStatusReq                                20306   0x60f5464e1ca03449       8
+cuav.equipment.power.CBAT                              20300   0xb4dace3a38e09a74     989
+dronecan.protocol.CanStats                               343   0xce080cae3ca33c75     200
+dronecan.protocol.Stats                                  342   0x763ae3b8a986f8d1     224
+dronecan.remoteid.ArmStatus                            20035   0xfedf72ccf06f3bdd     414
+dronecan.remoteid.BasicID                              20030   0x5b1c624a8e4fc533     346
+dronecan.remoteid.Location                             20031   0xeaa3a2c5bcb14caa     461
+dronecan.remoteid.OperatorID                           20034   0x581e7fc7f03af935     338
+dronecan.remoteid.SecureCommand                           64   0x126a47c9c17a8bd7    1840 / 1840 
+dronecan.remoteid.SelfID                               20032   0x59be81dc4c06a185     362
+dronecan.remoteid.System                               20033   0x9ac872f49bf32437     421
+dronecan.sensors.hygrometer.Hygrometer                  1032   0xceb308892bf163e8      40
+dronecan.sensors.rc.RCInput                             1140   0x771555e596aab4cf     418
+uavcan.CoarseOrientation                                 N/A   0x271ba10b0dac9e52      16
+uavcan.Timestamp                                         N/A   0x05bd0b5c81087e0d      56
+uavcan.equipment.actuator.ArrayCommand                  1010   0xd8a7486238ec3af3     484
+uavcan.equipment.actuator.Command                        N/A   0x8d9a6a920c1d616c      32
+uavcan.equipment.actuator.Status                        1011   0x5e9bba44faf1ea04      64
+uavcan.equipment.ahrs.MagneticFieldStrength             1001   0xe2a7d4a9460bc2f2     196
+uavcan.equipment.ahrs.MagneticFieldStrength2            1002   0xb6ac0c442430297e     204
+uavcan.equipment.ahrs.RawIMU                            1003   0x8280632c40e574b5     958
+uavcan.equipment.ahrs.Solution                          1000   0x72a63a3c6f41fa9b     668
+uavcan.equipment.air_data.AngleOfAttack                 1025   0xd5513c3f7afac74e      40
+uavcan.equipment.air_data.IndicatedAirspeed             1021   0x0a1892d72ab8945f      32
+uavcan.equipment.air_data.RawAirData                    1027   0xc77df38ba122f5da     397
+uavcan.equipment.air_data.Sideslip                      1026   0x7b48e55fcff42a57      32
+uavcan.equipment.air_data.StaticPressure                1028   0xcdc7c43412bdc89a      48
+uavcan.equipment.air_data.StaticTemperature             1029   0x49272a6477d96271      32
+uavcan.equipment.air_data.TrueAirspeed                  1020   0x306f69e0a591afaa      32
+uavcan.equipment.camera_gimbal.AngularCommand           1040   0x4af6e57b2b2be29c      80
+uavcan.equipment.camera_gimbal.GEOPOICommand            1041   0x9371428a92f01fd6     104
+uavcan.equipment.camera_gimbal.Mode                      N/A   0x9108c7785aeb69c4       8
+uavcan.equipment.camera_gimbal.Status                   1044   0xb9f127865be0d61e     228
+uavcan.equipment.device.Temperature                     1110   0x70261c28a94144c6      40
+uavcan.equipment.esc.RPMCommand                         1031   0xce0f9f621cf7e70b     365
+uavcan.equipment.esc.RawCommand                         1030   0x217f5c87d7ec951d     285
+uavcan.equipment.esc.Status                             1034   0xa9af28aea2fbb254     110
+uavcan.equipment.gnss.Auxiliary                         1061   0x9be8bdc4c3dbbfd2     125
+uavcan.equipment.gnss.ECEFPositionVelocity               N/A   0x24a5da4abee3a248     792
+uavcan.equipment.gnss.Fix                               1060   0x54c1572b9e07f297     628
+uavcan.equipment.gnss.Fix2                              1063   0xca41e7000f37435f    1769
+uavcan.equipment.gnss.RTCMStream                        1062   0x1f56030ecb171501    1040
+uavcan.equipment.hardpoint.Command                      1070   0xa1a036268b0c3455      24
+uavcan.equipment.hardpoint.Status                       1071   0x624a519d42553d82      56
+uavcan.equipment.ice.FuelTankStatus                     1129   0x286b4a387ba84bc4     104
+uavcan.equipment.ice.reciprocating.CylinderStatus        N/A   0xd68ac83a89d5b36b      80
+uavcan.equipment.ice.reciprocating.Status               1120   0xd38aa3ee75537ec6    1565
+uavcan.equipment.indication.BeepCommand                 1080   0xbe9ea9fec2b15d52      32
+uavcan.equipment.indication.LightsCommand               1081   0x2031d93c8bdd1ec4     485
+uavcan.equipment.indication.RGB565                       N/A   0x58a7cef41951ec34      16
+uavcan.equipment.indication.SingleLightCommand           N/A   0xe894b8b589807007      24
+uavcan.equipment.power.BatteryInfo                      1092   0x249c26548a711966     437
+uavcan.equipment.power.CircuitStatus                    1091   0x8313d33d0ddda115      56
+uavcan.equipment.power.PrimaryPowerSupplyStatus         1090   0xbba05074ad757480      47
+uavcan.equipment.range_sensor.Measurement               1050   0x68fffe70fc771952     120
+uavcan.equipment.safety.ArmingStatus                    1100   0x8700f375556a8003       8
+uavcan.navigation.GlobalNavigationSolution              2000   0x463b10cccbe51c3d    1860
+uavcan.protocol.AccessCommandShell                         6   0x59276b5921c9246e    1040 / 2097 
+uavcan.protocol.CANIfaceStats                            N/A   0x13b106f0c44ca350     144
+uavcan.protocol.DataTypeKind                             N/A   0x9420a73e008e5930       8
+uavcan.protocol.GetDataTypeInfo                            2   0x1b283338a7bed2d8     671 / 743  
+uavcan.protocol.GetNodeInfo                                1   0xee468a8121c46a9e       0 / 3015 
+uavcan.protocol.GetTransportStats                          4   0xbe6f76a7ec312b04       0 / 578  
+uavcan.protocol.GlobalTimeSync                             4   0x20271116a793c2db      56
+uavcan.protocol.HardwareVersion                          N/A   0x0ad5c4c933f4a0c4    2192
+uavcan.protocol.NodeStatus                               341   0x0f0868d0c1a7c6f1      56
+uavcan.protocol.Panic                                      5   0x8b79b4101811c1d7      59
+uavcan.protocol.RestartNode                                5   0x569e05394a3017f0      40 / 1    
+uavcan.protocol.SoftwareVersion                          N/A   0xdd46fd376527fea1     120
+uavcan.protocol.debug.KeyValue                         16370   0xe02f25d6e0c98ae0     502
+uavcan.protocol.debug.LogLevel                           N/A   0x711bf141af572346       3
+uavcan.protocol.debug.LogMessage                       16383   0xd654a48e0c049d75     983
+uavcan.protocol.dynamic_node_id.Allocation                 1   0x0b2a812620a11d40     141
+uavcan.protocol.dynamic_node_id.server.AppendEntries      30   0x8032c7097b48a3cc     249 / 33   
+uavcan.protocol.dynamic_node_id.server.Discovery         390   0x821ae2f525f69f21      51
+uavcan.protocol.dynamic_node_id.server.Entry             N/A   0x7faa779d64fa75c2     168
+uavcan.protocol.dynamic_node_id.server.RequestVote        31   0xcdde07bb89a56356      72 / 33   
+uavcan.protocol.enumeration.Begin                         15   0x196ae06426a3b5d8     759 / 8    
+uavcan.protocol.enumeration.Indication                   380   0x884cb63050a84f35     815
+uavcan.protocol.file.BeginFirmwareUpdate                  40   0xb7d725df72724126    1616 / 1031 
+uavcan.protocol.file.Delete                               47   0x78648c99170b47aa    1608 / 16   
+uavcan.protocol.file.EntryType                           N/A   0x6924572fbb2086e5       8
+uavcan.protocol.file.Error                               N/A   0xa83071ffea4fae15      16
+uavcan.protocol.file.GetDirectoryEntryInfo                46   0x8c46e8ab568bda79    1640 / 1632 
+uavcan.protocol.file.GetInfo                              45   0x5004891ee8a27531    1608 / 64   
+uavcan.protocol.file.Path                                N/A   0x12aefc50878a43e2    1608
+uavcan.protocol.file.Read                                 48   0x8dcdca939f33f678    1648 / 2073 
+uavcan.protocol.file.Write                                49   0x515aa1dc77e58429    3192 / 16   
+uavcan.protocol.param.Empty                              N/A   0x6c4d0e8ef37361df       0
+uavcan.protocol.param.ExecuteOpcode                       10   0x3b131ac5eb69d2cd      56 / 49   
+uavcan.protocol.param.GetSet                              11   0xa7b622f939d1a4d5    1791 / 2967 
+uavcan.protocol.param.NumericValue                       N/A   0x0da6d6fea22e3587      66
+uavcan.protocol.param.Value                              N/A   0x29f14bf484727267    1035
+uavcan.tunnel.Broadcast                                 2010   0x5aa2d4d9cf4b1e85     502
+uavcan.tunnel.Call                                        63   0xdb11edc510502658     502 / 486  
+uavcan.tunnel.Protocol                                   N/A   0xa367483c9b920e49       8
+uavcan.tunnel.SerialConfig                              2011   0x4237aacee87e82ad      64
+uavcan.tunnel.Targetted                                 3001   0xb138e7ea72a2a2e9    1015
